@@ -1,0 +1,46 @@
+/*базовые настройки*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: inherit;
+  line-height: 1.1;
+  color: #000;
+  text-decoration: none;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: default;
+  -webkit-tap-highlight-color: transparent;
+}
+img {
+  display: block;
+  object-fit: cover;
+}
+a, button, a *, button *, select, input {
+  cursor: pointer;
+}
+a, button, img, form, h2, h3, h4, label {
+  user-select: none;
+}
+input[type="text"], input[type="tel"], input[type="email"], input[type="number"], textarea {
+  cursor: text;
+  border-radius: 0;
+}
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance:  textfield;
+}
+ul {
+  list-style-type: none;
+}
+html {
+  font-size: 1px;
+}
+.wrapper {
+  width: 100%;
+  overflow: hidden;
+}
