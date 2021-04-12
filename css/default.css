@@ -15,7 +15,6 @@
 }
 img {
   display: block;
-  object-fit: cover;
 }
 a, button, a *, button *, select, input {
   cursor: pointer;
