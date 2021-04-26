@@ -200,6 +200,10 @@ $('form').submit(function(event) {
 	})
 })
 
+$('[name="phone"]').on('input', function() {
+	$(this).val($(this).val().replace(/[A-Za-zA-Яа-я-Ёе]/, ''))
+}) 
+
 
 // Wow
 
